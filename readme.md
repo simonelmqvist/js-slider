@@ -21,7 +21,6 @@ Render HTML in the following syntax:
 ## Options
 ```
 {
-    numberOfSlides: 'Total number of slides to verify when the slide reach start and stop',
     slider: 'Slider section element',
     atStart: 'Function that fires when slider reaches start point',
     atEnd: 'Function that fires when slider reaches end point'
