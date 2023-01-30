@@ -7,7 +7,6 @@
     var next = slider.getElementsByClassName("next")[0];
   
     var slideShow = new Slider({
-      numberOfSlides: slider.children.length,
       slider: slider,
       atStart: function() {
         prev.classList.add('inactive');

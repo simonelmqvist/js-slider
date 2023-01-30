@@ -1,9 +1,9 @@
 Slider = function (options) {  
-    var slider = options.slider;    
-    var numberOfSlides = options.numberOfSlides;
+    var slider = options.slider;        ;
     var atStart = options.atStart;
     var atEnd = options.atEnd;
     var sliderContainer = slider.getElementsByClassName('slider-wrapper')[0];
+    var numberOfSlides = sliderContainer.getElementsByClassName('slide').length - 1;
     var slideIndex = 0;
     var maxIndex = numberOfSlides;
   

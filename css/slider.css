@@ -1,15 +1,15 @@
-.slider {    
-    position: relative;    
+.slider {
+    position: relative;
     overflow: hidden;
-  }
+}
 
-  .slider-wrapper {    
-    white-space: nowrap;    
+.slider-wrapper {
+    white-space: nowrap;
     transition-duration: 0.4s;
-  }
-  
-  .slide {
+}
+
+.slide {
     width: 100%;
     display: inline-block;
     white-space: normal;
-  }
+}

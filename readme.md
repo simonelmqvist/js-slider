@@ -16,6 +16,11 @@ Render HTML in the following syntax:
     </div>
 </section>
 ```
+Render previous- and next buttons accordingly:
+```
+<a class="prev inactive" href="javascript:void(0);">&#10094;</a>
+<a class="next" href="javascript:void(0);">&#10095;</a>
+```
 ## Options
 ```
 {
