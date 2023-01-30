@@ -14,12 +14,9 @@ Render HTML in the following syntax:
             <h2>Slide content</h2>
         </div>
     </div>
+    <a class="prev inactive" href="javascript:void(0);">&#10094;</a>
+    <a class="next" href="javascript:void(0);">&#10095;</a>
 </section>
-```
-Render previous- and next buttons accordingly within section slider:
-```
-<a class="prev inactive" href="javascript:void(0);">&#10094;</a>
-<a class="next" href="javascript:void(0);">&#10095;</a>
 ```
 ## Options
 ```
@@ -30,6 +27,7 @@ Render previous- and next buttons accordingly within section slider:
     atEnd: 'Function that fires when slider reaches end point'
 }
 ```
+Use your own logics to attach buttons to slide events, see examples (https://github.com/simonelmqvist/js-slider/blob/master/examples/example1/index.html).
 
-# Contribute
+## Contribute
 Please make PR to contribute to better code.
