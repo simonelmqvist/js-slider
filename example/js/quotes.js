@@ -9,10 +9,10 @@
     var slideShow = new Slider({
       numberOfSlides: slider.children.length,
       slider: slider,
-      atStart = function() {
+      atStart: function() {
         prev.classList.add('inactive');
       },
-      atStart = function() {
+      atEnd: function() {
         next.classList.add('inactive');
       }
     });
